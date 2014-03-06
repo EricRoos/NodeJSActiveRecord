@@ -1,6 +1,6 @@
 var mysql = require('mysql');
 var connection = null;
-var debug = true;
+var debug = false;
 function invoke_query(sql,callback){
   if(debug){
     console.log(sql);
